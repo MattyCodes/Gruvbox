@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gruvbox Theme Switcher — Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Gruvbox Theme Switcher</h1>
+
+      <section>
+        <h2>Mode</h2>
+        <label class="row">
+          <input type="radio" name="mode" value="auto" />
+          <span>
+            <strong>Follow system</strong>
+            <small
+              >Match the browser chrome to your operating system's light / dark
+              setting. Clicking the toolbar button flips it temporarily until the
+              system setting next changes (or the browser restarts).</small
+            >
+          </span>
+        </label>
+        <label class="row">
+          <input type="radio" name="mode" value="manual" />
+          <span>
+            <strong>Manual</strong>
+            <small
+              >Stay on whichever theme you pick. The toolbar button toggles
+              between light and dark.</small
+            >
+          </span>
+        </label>
+      </section>
+
+      <section id="manual-section">
+        <h2>Manual theme</h2>
+        <label class="row">
+          <input type="radio" name="manualTheme" value="light" />
+          <span><strong>Gruvbox Light</strong></span>
+        </label>
+        <label class="row">
+          <input type="radio" name="manualTheme" value="dark" />
+          <span><strong>Gruvbox Dark</strong></span>
+        </label>
+      </section>
+
+      <p class="status">
+        Currently showing: <strong id="current">…</strong>
+      </p>
+    </main>
+    <script src="options.js"></script>
+  </body>
+</html>

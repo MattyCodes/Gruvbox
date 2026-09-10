@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Gruvbox Theme Switcher",
+  "version": "1.0.0",
+  "description": "Toggle the Firefox UI between Gruvbox Light and Gruvbox Dark from the toolbar, or follow your system colour scheme automatically.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "gruvbox-theme-switcher@local",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": { "required": ["none"] }
+    }
+  },
+  "permissions": ["theme", "storage", "menus", "alarms"],
+  "background": {
+    "scripts": ["themes.js", "background.js"]
+  },
+  "action": {
+    "default_icon": "icons/icon.svg",
+    "default_title": "Gruvbox: toggle light / dark"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  }
+}

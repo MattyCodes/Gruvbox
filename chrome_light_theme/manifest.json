@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Gruvbox Light",
+  "version": "1.0.0",
+  "description": "Gruvbox (medium) light colour scheme for the Chrome / Brave browser UI. Static companion to the Gruvbox Firefox theme switcher.",
+  "icons": { "128": "icon.png" },
+  "theme": {
+    "colors": {
+      "frame": [249, 245, 215],
+      "frame_inactive": [242, 229, 188],
+      "frame_incognito": [213, 196, 161],
+      "frame_incognito_inactive": [213, 196, 161],
+      "toolbar": [251, 241, 199],
+      "tab_text": [40, 40, 40],
+      "tab_background_text": [124, 111, 100],
+      "tab_background_text_inactive": [168, 153, 132],
+      "bookmark_text": [60, 56, 54],
+      "omnibox_background": [249, 245, 215],
+      "omnibox_text": [60, 56, 54],
+      "ntp_background": [251, 241, 199],
+      "ntp_text": [60, 56, 54],
+      "ntp_link": [7, 102, 120]
+    },
+    "properties": {
+      "ntp_logo_alternate": 0
+    }
+  }
+}
