@@ -3,4 +3,4 @@ Some platforms already have good Gruvbox themes available - this repository shou
 
 - [Slack](./slack_themes/README.md)
 - [Chrome](./chrome_themes/README.md)
-- [Firefox]()
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/dynamic-gruvbox-theme/)
